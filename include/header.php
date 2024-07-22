@@ -8,17 +8,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Akronim&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Protest+Strike&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz@8..144&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="/scss/style.css">
+    
    
-   
-<title>Header</title>
+<title>Index</title>
 </head>
 
 <body>
     <header>
       <nav class="navbar navbar-expand-lg bg-dark "data-bs-theme="dark">
-        <div class="container-fluid police">
+        <div class="container-fluid">
           <img class="navbar-brand logo" src="/images/logo_zoo.png" alt="Logo du zoo"/>
           <button class="navbar-toggler" type="button"  data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"  aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>

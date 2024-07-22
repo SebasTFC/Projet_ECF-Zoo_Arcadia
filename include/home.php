@@ -5,12 +5,13 @@ include('header.php');
 
 <div class="img_fond_zoo text-center text-white">
     <div class="img_fond_zoo_content">
-        <h1>Bienvenue au Zoo ARCADIA </h1>
+        <h1 class="text-success">Bienvenue au Zoo ARCADIA </h1>
     </div>
 </div>
-<div class="centre">
+<div class="margin_footer">
 <section>
 <div class="container">
+<!-- Introduction  -->
         <div class="row justify-content-center m-4">
         <div class="col-12 col-lg-10">  
             <div class="border border-2 border-primary rounded-2 justify bg-secondary fst-italic text-dark p-4 ">
@@ -21,7 +22,7 @@ include('header.php');
             </div>
         </div>
     </div>
-
+<!-- Description des habitats du zoo -->
     <article>
         <div class="mb-4 bg-danger rounded-5 p-1 ">
             <h3 class="text-dark text-center">Le zoo est divisé en plusieurs types d'habitats.</h3>
@@ -52,6 +53,7 @@ include('header.php');
         
     </article>
 
+<!-- Description des services -->
     <article>
         <div class="my-1 bg-danger rounded-5 p-1 ">
             <h3 class="text-center text-dark mt-1 p-2">Plusieurs services vous seront proposés.</h3>
@@ -69,7 +71,7 @@ include('header.php');
         </div>
         
     </article>
-   
+<!-- Carroussel d'image d'animaux --> 
     <article>
             <div class="mt-4 bg-danger rounded-5 p-3">
                 <h3 class="text-center text-dark">Quelques exemples d'animaux que vous rencontrerez lors de votre visite.</h3>
@@ -106,6 +108,7 @@ include('header.php');
             </div>
         </article>
 
+<!-- Avis des visiteurs -->
         <article>       
             <div class=" my-4 p-2 bg-danger rounded-5">
                 <div class="col-12">
@@ -123,7 +126,6 @@ include('header.php');
             </div>
         </article>
 </section>
-
 </div>
 <?php
 include('footer.php');

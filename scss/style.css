@@ -1,19 +1,18 @@
+@import url("bootstrap.css");
 .logo{
     width: 70px;
     height: 70px;
 }
-
 body{
     background-color: rgba(97, 75, 14, 0.8);
 }
-
 
 html{
     position: relative;
     min-height: 100%;  
 }
 
-.centre{
+.margin_footer{
     margin-bottom: 220px;
 }
 
